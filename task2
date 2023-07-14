@@ -1,0 +1,19 @@
+class Deck:
+
+    def __init__(self):
+         [list(self.deck)for i in suit for j in rank and self.deck.append(Card(suit,rank))]
+            
+
+    def __str__(self):
+        deck_Computer=('')
+        for cart in self.deck:
+            deck_Computer+=card.__str__()
+        return "The deck has: "+deck_Computer
+        
+     
+    def shuffle(self):
+        random.shuffle(self.deck)
+        
+
+    def deal(self):
+        deal= self.deck.pop()
