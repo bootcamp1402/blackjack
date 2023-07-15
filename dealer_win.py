@@ -1,2 +1,2 @@
 def dealer_wins():
-    pass
+    print("dealer wins!")
